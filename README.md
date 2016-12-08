@@ -1,9 +1,10 @@
-= Görüntü İşleme
 
-== İçindekiler
-. İçindekiler
-. Versiyon Geçmişi
-. Bölüm 1 - Giriş
-. Bölüm 2 - Ağırlık Toplama Yöntemi
-. Bölüm 3 - Python ile Ağırlık Toplama Yöntemi Uygulaması
-. Referanslar
+== İçindekiler +
+. İçindekiler +
+. Versiyon Geçmişi +
+. Giriş +
+. Eclipse IDE’sinin Mac Ortamında Kurulumu +
+. Kurulum
+.. Eclipse IDE’sinin Windows Ortamında Kurulumu +
+.. Eclipse’e Python Eklentisi Kurmak +
+. Referanslar +
