@@ -1,4 +1,4 @@
-== Görüntü İşleme
+== Görüntü İşleme Ağırlık Toplama Yöntemi ile Renk Uzayı İşlemleri
 
 == İçindekiler +
 .İçindekiler +
