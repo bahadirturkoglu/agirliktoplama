@@ -8,3 +8,18 @@
 . Bölüm 3 - Python ile Ağırlık Toplama Yöntemi Uygulaması +
 . Referanslar +
 
+== Versiyon Geçmişi +
+
+|===
+|Tarih|Değişiklik|Kişi
+
+|22.10.2016
+| 
+
+|Gönül TOKTAY
+|25.10.2016
+
+|
+|Miraç Sıla GENÇ 
+|===
+
