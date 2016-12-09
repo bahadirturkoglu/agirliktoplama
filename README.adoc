@@ -35,3 +35,5 @@ Burada yapılacak olan çalışmanın ilk adımı olan görüntüyü griye çevi
 
 Ağırlık toplama yönteminin doğru uygulanabilmesinin ilk aşaması; RGB uzayında gama genleşmesi ve gama sıkıştırması fonksiyonlarının ortadan kaldırılması gerekir. Bu işlemin gerçekleştirilmesi için gerekli fonksiyon aşağıda tanımlanmıştır. +
 
+image::Resim1[Resim 1]
+
