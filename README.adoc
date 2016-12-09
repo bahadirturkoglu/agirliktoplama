@@ -62,6 +62,7 @@ yukseklik=resim.size[1]                          #Resmin çözünürlüğünün 
 for i in range(genislik):                        #Burada içiçe döngü kullanarak resmin çözünürlük değerleri ile bir matris oluşturduk. Böylece matris haline gelen her piksel üzerinde işlem yapılabilir.
 
   for j in range(yukseklik):
+  
   r, g, b = resim.getpixel((i, j))               #Her pikselin renk değerini r,g,b, değişkenlerine atıyoruz. 
   
   gray=(int)((r*0.2126)+(g*0.7152)+(b*0.0722))   #Gri tonları r,g,b değişkenlerinden gelen renk değerlerine göre ayarlanarak gray değişkeni içerisine atılır.
