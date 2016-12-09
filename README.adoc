@@ -44,3 +44,7 @@ image::Resim2.png[Resim 2]
 
 
 == 5) *Python ile Ağırlık Toplama Yöntemi Uygulaması*
+
+Uygulamamızda renkli bir resmi gri tonlarına dönüştüreceğiz. Python dilinde resim dosyaları üzerinde işlem yapabilmek için “Image” kütüphanesini projemize dahil etmeliyiz. Python dili için bu tür grafik kütüphanelerini içine bulunduran “PIL” paketini indirebiliriz. Bunun için terminalimizden *“pip install pillow”* komutunu yazarak ‘PIL’ paketini indiriyoruz. Bu işlem bittikten sonra Eclipse->PyDev Project ile yeni projemize isim verip kodlarımızı yazmaya başlıyoruz. +
+
+
