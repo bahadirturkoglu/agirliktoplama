@@ -49,28 +49,28 @@ Uygulamamızda renkli bir resmi gri tonlarına dönüştüreceğiz. Python dilin
 
 [[source,python]]
 ----
-`from PIL import Image` # İlk olarak PIL paketinden Image kütüphanesini projemize dahil ediyoruz.
+from PIL import Image                            # İlk olarak PIL paketinden Image kütüphanesini projemize dahil ediyoruz.
 
-resim = Image.open("resim.jpg")   # Kullanacağımız resmi ‘open’ fonksiyonu ile açıp ‘resim’ değişkenine atıyoruz.
+resim = Image.open("resim.jpg")                  # Kullanacağımız resmi ‘open’ fonksiyonu ile açıp ‘resim’ değişkenine atıyoruz.
 
-yuklenen = resim.load() #’resim’ değişkeninde bulunan resmimizi ‘load’ fonksiyonu ile uygulamamıza yüklüyoruz ve ‘yuklenen’ değişkenine atıyoruz.
+yuklenen = resim.load()                          #’resim’ değişkeninde bulunan resmimizi ‘load’ fonksiyonu ile uygulamamıza yüklüyoruz ve ‘yuklenen’ değişkenine atıyoruz.
 
-genislik=resim.size[0]  #Resmin çözünürlüğünün genişlik boyutunu ‘genislik’ değişkenine atıyoruz.
+genislik=resim.size[0]                           #Resmin çözünürlüğünün genişlik boyutunu ‘genislik’ değişkenine atıyoruz.
 
-yukseklik=resim.size[1] #Resmin çözünürlüğünün yükseklik boyutunu ‘yukseklik değişkenine atıyoruz.
+yukseklik=resim.size[1]                          #Resmin çözünürlüğünün yükseklik boyutunu ‘yukseklik değişkenine atıyoruz.
 
-for i in range(genislik): #Burada içiçe döngü kullanarak resmin çözünürlük değerleri ile bir matris oluşturduk. Böylece matris haline gelen her piksel üzerinde işlem yapılabilir.
+for i in range(genislik):                        #Burada içiçe döngü kullanarak resmin çözünürlük değerleri ile bir matris oluşturduk. Böylece matris haline gelen her piksel üzerinde işlem yapılabilir.
 
   for j in range(yukseklik):
-  r, g, b = resim.getpixel((i, j))  #Her pikselin renk değerini r,g,b, değişkenlerine atıyoruz. 
+  r, g, b = resim.getpixel((i, j))               #Her pikselin renk değerini r,g,b, değişkenlerine atıyoruz. 
   
-  gray=(int)((r*0.2126)+(g*0.7152)+(b*0.0722)) #Gri tonları r,g,b değişkenlerinden gelen renk değerlerine göre ayarlanarak gray değişkeni içerisine atılır.
+  gray=(int)((r*0.2126)+(g*0.7152)+(b*0.0722))   #Gri tonları r,g,b değişkenlerinden gelen renk değerlerine göre ayarlanarak gray değişkeni içerisine atılır.
   
-  yuklenen[i,j]=(gray,gray,gray) #Her piksel için ayarlanan kırmızı,yeşil,mavi tonuna karşılık gelen gri tonu yine sırasıyla piksel piksel görüntüye işlenir.
+  yuklenen[i,j]=(gray,gray,gray)                 #Her piksel için ayarlanan kırmızı,yeşil,mavi tonuna karşılık gelen gri tonu yine sırasıyla piksel piksel görüntüye işlenir.
   
-resim.save("/Users/toktay/Desktop/yeni.jpg") #Resim dosyamızı istenilen klasöre ‘save’ ile kaydediyoruz.
+resim.save("/Users/toktay/Desktop/yeni.jpg")     #Resim dosyamızı istenilen klasöre ‘save’ ile kaydediyoruz.
 
-resim.show() #Son olarak resmimizi görüntüleyebiliriz.
+resim.show()                                     #Son olarak resmimizi görüntüleyebiliriz.
 
 ----
 
