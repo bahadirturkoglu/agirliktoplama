@@ -62,3 +62,15 @@ for i in range(genislik):
 resim.save("/Users/toktay/Desktop/yeni.jpg")
 resim.show() 
 ----
+
+
+Bu uygulamada ekranda görüntü alabilmek için “resim.show()” metodu kullanılır. Bu metodun çalışabilmesi için bir görüntüleme programına ihtiyacınız vardır. İmagemagick programı ideal bir programdır. Bunu yüklemek için MacOs işletim sistemi için terminalimize brew install imagemagick yazarak bu programı indirebilirsiniz. +
+
+image::Resim3.png[Resim 3]
+
+
+image::Resim4.png[Resim 4]
+
+== *Referanslar*
+. http://stackoverflow.com/questions/23935840/converting-an-rgb-image-to-grayscale-and-manipulating-the-pixel-data-in-python
+. http://stackoverflow.com/questions/12201577/how-can-i-convert-an-rgb-image-into-grayscale-in-python?noredirect=1&lq=1
