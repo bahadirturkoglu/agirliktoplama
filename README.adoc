@@ -51,9 +51,12 @@ Uygulamamızda renkli bir resmi gri tonlarına dönüştüreceğiz. Python dilin
 ----
 from PIL import Image # İlk olarak PIL paketinden Image kütüphanesini projemize dahil ediyoruz.
 
-resim = Image.open("resim.jpg") 
-yuklenen = resim.load()
-genislik=resim.size[0] 
+resim = Image.open("resim.jpg")   # Kullanacağımız resmi ‘open’ fonksiyonu ile açıp ‘resim’ değişkenine atıyoruz.
+
+yuklenen = resim.load() #’resim’ değişkeninde bulunan resmimizi ‘load’ fonksiyonu ile uygulamamıza yüklüyoruz ve ‘yuklenen’ değişkenine atıyoruz.
+
+genislik=resim.size[0]  #Resmin çözünürlüğünün genişlik boyutunu ‘genislik’ değişkenine atıyoruz.
+
 yukseklik=resim.size[1]
 for i in range(genislik):
   for j in range(yukseklik):
