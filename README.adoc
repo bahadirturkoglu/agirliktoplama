@@ -75,7 +75,7 @@ resim.show()                                     #Son olarak resmimizi görünt�
 ----
 
 
-Bu uygulamada ekranda görüntü alabilmek için “resim.show()” metodu kullanılır. Bu metodun çalışabilmesi için bir görüntüleme programına ihtiyacınız vardır. İmagemagick programı ideal bir programdır. Bunu yüklemek için MacOs işletim sistemi için terminalimize brew install imagemagick yazarak bu programı indirebilirsiniz. +
+Bu uygulamada ekranda görüntü alabilmek için “resim.show()” metodu kullanılır. Bu metodun çalışabilmesi için bir görüntüleme programına ihtiyacınız vardır. İmagemagick programı ideal bir programdır. Bunu yüklemek için MacOs işletim sistemi için terminalimize *brew install imagemagick* yazarak bu programı indirebilirsiniz. +
 
 image::Resim3.png[Resim 3]
 
