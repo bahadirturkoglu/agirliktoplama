@@ -39,7 +39,7 @@ Burada yapılacak olan çalışmanın ilk adımı olan görüntüyü griye çevi
 
 Ağırlık toplama yönteminin doğru uygulanabilmesinin ilk aşaması; RGB uzayında gama genleşmesi ve gama sıkıştırması fonksiyonlarının ortadan kaldırılması gerekir. Bu işlemin gerçekleştirilmesi için gerekli fonksiyon aşağıda tanımlanmıştır. +
 
-image::resim1.png[Resim 1] https://en.wikipedia.org/wiki/Grayscale[[3]]
+image::resim1.png[Resim 1]  https://en.wikipedia.org/wiki/Grayscale[[3]]
 
 İşlemin gerçekleştirilmesinden sonraki aşama ise doğrusal parlaklığın hesaplanmasıdır. Doğrusal parlaklık; üç doğrusal-yoğunluk değerlerinin ağırlıklı toplamı olarak hesaplanır. +
 
