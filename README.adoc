@@ -39,11 +39,11 @@ Burada yapılacak olan çalışmanın ilk adımı olan görüntüyü griye çevi
 
 Ağırlık toplama yönteminin doğru uygulanabilmesinin ilk aşaması; RGB uzayında gama genleşmesi ve gama sıkıştırması fonksiyonlarının ortadan kaldırılması gerekir. Bu işlemin gerçekleştirilmesi için gerekli fonksiyon aşağıda tanımlanmıştır. +
 
-image::resim1.png[Resim 1]
+image::resim1.png[Resim 1] https://en.wikipedia.org/wiki/Grayscale[[3]]
 
 İşlemin gerçekleştirilmesinden sonraki aşama ise doğrusal parlaklığın hesaplanmasıdır. Doğrusal parlaklık; üç doğrusal-yoğunluk değerlerinin ağırlıklı toplamı olarak hesaplanır. +
 
-image::resim2.png[Resim 2]
+image::resim2.png[Resim 2] 
 
 
 
@@ -101,3 +101,4 @@ image::Resim4.png[Resim 4]
 == *Referanslar*
 . http://stackoverflow.com/questions/23935840/converting-an-rgb-image-to-grayscale-and-manipulating-the-pixel-data-in-python
 . http://stackoverflow.com/questions/12201577/how-can-i-convert-an-rgb-image-into-grayscale-in-python?noredirect=1&lq=1
+. https://en.wikipedia.org/wiki/Grayscale
